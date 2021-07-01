@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 release_json=$(curl https://api.github.com/repos/xivdev/Penumbra/releases/latest)
 
 count=$(echo "$release_json" | jq '.assets[0].download_count')
@@ -18,4 +19,9 @@ config=$(echo "$config" | jq '. += {"DownloadLinkUpdate": '$download'}')
 config=$(echo "$config" | jq '. += {"AssemblyVersion": '$version'}')
 #config=$(echo "$config" | jq '. += {"": '$'}')
 
+git checkout releases
 echo "[$config]" > main.json
+git add main.json
+git commit -m "Automated update"
+git push
+git checkout master
