@@ -20,6 +20,7 @@ config=$(echo "$config" | jq '. += {"AssemblyVersion": '$version'}')
 #config=$(echo "$config" | jq '. += {"": '$'}')
 
 git checkout releases
+git pull -q
 echo "[$config]" > main.json
 git add main.json
 git commit -m "Automated update"
