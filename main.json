@@ -3,7 +3,7 @@
   "Name": "Penumbra",
   "Description": "Runtime mod loader and manager.",
   "InternalName": "Penumbra",
-  "AssemblyVersion": "0.4.2.2",
+  "AssemblyVersion": "0.4.2.3",
   "RepoUrl": "https://github.com/xivdev/Penumbra",
   "ApplicableVersion": "any",
   "Tags": [
@@ -13,9 +13,9 @@
   "LoadPriority": 69420,
   "IsHide": false,
   "IsTestingExclusive": false,
-  "LastUpdated": 1628865269,
-  "DownloadCount": 77,
-  "DownloadLinkInstall": "https://github.com/xivdev/Penumbra/releases/download/0.4.2.2/Penumbra.zip",
-  "DownloadLinkTesting": "https://github.com/xivdev/Penumbra/releases/download/0.4.2.2/Penumbra.zip",
-  "DownloadLinkUpdate": "https://github.com/xivdev/Penumbra/releases/download/0.4.2.2/Penumbra.zip"
+  "LastUpdated": 1628968569,
+  "DownloadCount": 1,
+  "DownloadLinkInstall": "https://github.com/xivdev/Penumbra/releases/download/0.4.2.3/Penumbra.zip",
+  "DownloadLinkTesting": "https://github.com/xivdev/Penumbra/releases/download/0.4.2.3/Penumbra.zip",
+  "DownloadLinkUpdate": "https://github.com/xivdev/Penumbra/releases/download/0.4.2.3/Penumbra.zip"
 }]
